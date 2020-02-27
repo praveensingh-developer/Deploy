@@ -1,4 +1,4 @@
-1>open new terminal and clone project with fork repository
+1>open new terminal and clone project with fork repository clone 
 
 git clone git@github.rackspace.com:prav5554/fl-pcms.git
 
