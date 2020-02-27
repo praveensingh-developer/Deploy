@@ -1,0 +1,121 @@
+1>open new terminal and clone project with fork repository
+
+git clone git@github.rackspace.com:prav5554/fl-pcms.git
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (master)
+$ git branch ChargeClassess_FASTLN-3772
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (master)
+$ git branch
+  ChargeClassess_FASTLN-3772
+* master
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (master)
+$ git checkout ChargeClassess_FASTLN-3772
+Switched to branch 'ChargeClassess_FASTLN-3772'
+M       src/main/resources/db/schema/oracle/V35__Add_Config.sql
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (ChargeClassess_FASTLN-3772)
+$ git add .
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (ChargeClassess_FASTLN-3772)
+$ git commit -m "FASTLN-3772 Changes for inserting Charge Classes in FL DB"
+[ChargeClassess_FASTLN-3772 a3b9b609] FASTLN-3772 Changes for inserting Charge Classes in FL DB
+ 1 file changed, 111 insertions(+), 1 deletion(-)
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (ChargeClassess_FASTLN-3772)
+$ git push --set-upstream origin ChargeClassess_FASTLN-3772
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 2.86 KiB | 731.00 KiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'ChargeClassess_FASTLN-3772' on GitHub by visiting:
+remote:      https://github.rackspace.com/prav5554/flui/pull/new/ChargeClassess_FASTLN-3772
+remote:
+To github.rackspace.com:prav5554/flui.git
+ * [new branch]        ChargeClassess_FASTLN-3772 -> ChargeClassess_FASTLN-3772
+Branch 'ChargeClassess_FASTLN-3772' set up to track remote branch 'ChargeClassess_FASTLN-3772' from 'origin'.
+
+2>open new terminal and clone project with repository
+
+git clone git@github.rackspace.com:BillingStack/fl-pcms.git
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (ChargeClassess_FASTLN-3772)
+$ git branch
+* ChargeClassess_FASTLN-3772
+  master
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (ChargeClassess_FASTLN-3772)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (master)
+$ git branch ChargeClassess_FASTLN-3772
+fatal: A branch named 'ChargeClassess_FASTLN-3772' already exists.
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (master)
+$ git push --set-upstream origin ChargeClassess_FASTLN-3772
+Everything up-to-date
+Branch 'ChargeClassess_FASTLN-3772' set up to track remote branch 'ChargeClassess_FASTLN-3772' from 'origin'.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (Bdom_Next_Billing_Date)
+$ git branch
+* Bdom_Next_Billing_Date
+  master
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (Bdom_Next_Billing_Date)
+$ git status -s
+ M src/main/java/com/rackspace/flui/controller/AuditController.java
+ M src/main/java/com/rackspace/flui/dao/BRMDao.java
+ M src/main/java/com/rackspace/flui/service/AuditService.java
+ M src/main/webapp/resources/js/app.js
+ M src/main/webapp/resources/js/controllers/purchase/PurchaseNewController.js
+ M src/main/webapp/resources/js/controllers/purchase/PurchaseSearchController.js
+ M src/main/webapp/resources/js/services/AuditService.js
+ M src/main/webapp/resources/partials/purchase/listPurchaseSearch.html
+ M src/main/webapp/resources/partials/purchase/newPurchaseForm.html
+
+ PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (Bdom_Next_Billing_Date)
+$ git add .
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (Bdom_Next_Billing_Date)
+$ git status
+On branch Bdom_Next_Billing_Date
+Your branch is up to date with 'origin/Bdom_Next_Billing_Date'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/main/java/com/rackspace/flui/controller/AuditController.java
+        modified:   src/main/java/com/rackspace/flui/dao/BRMDao.java
+        modified:   src/main/java/com/rackspace/flui/service/AuditService.java
+        modified:   src/main/webapp/resources/js/app.js
+        modified:   src/main/webapp/resources/js/controllers/purchase/PurchaseNewController.js
+        modified:   src/main/webapp/resources/js/controllers/purchase/PurchaseSearchController.js
+        modified:   src/main/webapp/resources/js/services/AuditService.js
+        modified:   src/main/webapp/resources/partials/purchase/listPurchaseSearch.html
+        modified:   src/main/webapp/resources/partials/purchase/newPurchaseForm.html
+
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (Bdom_Next_Billing_Date)
+$ git commit -m "FASTLN-3417 BDOM and Next Billing Date Changes"
+[Bdom_Next_Billing_Date 29cfdba9] FASTLN-3417 BDOM and Next Billing Date Changes
+ 9 files changed, 182 insertions(+), 2 deletions(-)
+
+PS00602530@inbasdlp07390 MINGW64 /d/FastLane_Code/commit/flui (Bdom_Next_Billing_Date)
+$ git push
+Enumerating objects: 55, done.
+Counting objects: 100% (55/55), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (28/28), 3.56 KiB | 912.00 KiB/s, done.
+Total 28 (delta 22), reused 0 (delta 0)
+remote: Resolving deltas: 100% (22/22), completed with 22 local objects.
+To github.rackspace.com:prav5554/flui.git
+   81126b37..29cfdba9  Bdom_Next_Billing_Date -> Bdom_Next_Billing_Date
